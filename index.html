@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stopwatch</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <h1 class="header">Stopwatch</h1>
+    <div class="main-area">
+        <h2 class="timer" id="mainTimer">0:0:0:00</h2>
+        <button class="start" onclick="startClick()">Start</button>
+        <button class="stop" onclick="stopClick()">Stop</button>
+        <button class="reset" onclick="reset()">Reset</button>
+    </div>
 </body>
 </html>
