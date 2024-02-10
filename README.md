@@ -1,2 +1,3 @@
 # jsStopwatch
-stopwatch created with html, css, javascript
+https://ahmkhn.github.io/jsStopwatch/
+project made to improve javascript skills
